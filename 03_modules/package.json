@@ -1,0 +1,24 @@
+{
+  "name": "03_modules",
+  "version": "1.0.0",
+  "description": "Simple demo of Modules and NPM",
+  "main": "app.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prewow": "echo \"Pre Wow\"",
+    "wow": "echo \"Isn't this amazing!!\""
+  },
+  "keywords": [
+    "training",
+    "node",
+    "npm",
+    "javascript"
+  ],
+  "author": "Leon Baird <leonbaird@mac.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}

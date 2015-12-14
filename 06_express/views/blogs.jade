@@ -1,0 +1,29 @@
+include ./partials/header
+
+main
+    h2 Current list of blogs
+    p Here is a list of some blogs that have been posted:
+
+    ul
+       each blog, index in blogs
+          li
+            a(href="view_blogs/"+blog._id)= blog.title
+            a(href="#", data-id="#{blog._id}", class="delete", title="Delete blog") X
+
+    p add new blog:
+
+    form#newBlog
+       p
+         input(name="title", placeholder="Enter blog title", type="text")
+       p
+         label(for="message") Enter blog text:
+         br
+         textarea(name="message")
+       p
+         input(type="reset", value="Clear")
+         input(type="submit", value="Add")
+
+    script(src="/jquery/jquery.js")
+    script(src="/js/blogs.js")
+
+include ./partials/footer

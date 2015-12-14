@@ -1,0 +1,12 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "description": "Simple demo of unit testing",
+  "author": "Leon Baird <leonbaird@mac.com>",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

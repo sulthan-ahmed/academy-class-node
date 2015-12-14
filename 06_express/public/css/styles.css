@@ -1,0 +1,43 @@
+body {
+    background: #EFEFEF;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+}
+
+header, footer {
+    background: #2b3163;
+    padding: 1em 5%;
+    color: white;
+}
+
+nav {
+    background-color: #999;
+    padding: 0 5%;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+main {
+    margin: 1em 5%;
+    margin-bottom: 8em;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.delete {
+    color: red;
+    margin-left: 1em;
+}
